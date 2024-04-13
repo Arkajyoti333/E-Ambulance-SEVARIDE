@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    color: white;
+  }
+  .logo {
+    width: 250px; /* Adjust as needed */
+    height:68px; /* Maintain aspect ratio */
+  }
+  .navMenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ListItem {
+    padding: 0.5rem 3rem ;
+    margin: 0.25rem;
+    margin-right: 1rem;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+  .ListItem:hover {
+    color: #ffd700; /* Change to desired hover color */
+  }
+  
