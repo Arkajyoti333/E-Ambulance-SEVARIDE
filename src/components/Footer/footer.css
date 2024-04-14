@@ -1,11 +1,18 @@
 .footer{
     font-size: small;
-    font-style: italic;
-    width: 100vw;
+    /* font-style: italic; */
+    /* width: 100vw; */
     background: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 300;
     color: black;
+    
 }
+.element {
+    border-top: 3px solid #dfdede;
+    border-bottom: 1px dashed #F2F2F2; 
+  }
+  
+  
