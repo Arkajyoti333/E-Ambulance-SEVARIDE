@@ -29,4 +29,4 @@ const homescreen = () => {
     </div>
   )
 } 
-export default homescreen
+export default homescreen;
