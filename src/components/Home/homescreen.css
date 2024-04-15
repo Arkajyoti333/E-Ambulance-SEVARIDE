@@ -9,9 +9,10 @@
   
   .right-banner {
     position: absolute;
-    top: 0;
+    top: 5;
     right: 0;
     width: 40%; /* Adjusted width */
+    height: 40%;
   }
   
   .bg {
