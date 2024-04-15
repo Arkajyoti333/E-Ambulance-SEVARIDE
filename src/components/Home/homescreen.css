@@ -1,64 +1,63 @@
+.container {
+  display: flex;
+}
+
 .booking {
-    float: left;
-    width: 35rem; /* Adjusted width */
-    padding: 40px; /* Adjusted padding */
-    position: relative;
-    margin-left: 5rem;
-    text-align: center;
-  }
-  
-  .right-banner {
-    position: absolute;
-    top: 5;
-    right: 0;
-    width: 40%; /* Adjusted width */
-    height: 40%;
-  }
-  
-  .bg {
-    width: 100%;
-    height: auto;
-  }
-  
-  /* Additional styling */
-  .booking h1 {
-    font-size: 36px;
-    color: red;
-  }
-  
-  .booking h2 {
-    font-size: 24px;
-  }
-  
-  .booking p {
-    font-size: 18px;
-  }
-  
-  .booking button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 15px 40px;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 20px;
-    width: 100%;
-  }
-  
-  .booking button:hover {
-    background-color: #0056b3;
-  }
-  
-  .callnow  {
-    color: #c4330b;
-    text-decoration: none;
-    font-size: 20px;
-    display: inline-block;
-    border-radius: 20px; /* Added border radius */
-    margin-top: 10px;
-  }
-  
-  .callnow:hover {
-    text-decoration: underline;
-  }
-  
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bg-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Additional styling */
+.booking h1 {
+  font-size: 36px;
+  color: red;
+}
+
+.booking h2 {
+  font-size: 24px;
+}
+
+.booking p {
+  font-size: 18px;
+}
+/* .booking button {
+  background-color: #007bff;
+  margin-top: 5%;
+  color: #fff;
+  border: none;
+  padding: 15px 40px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 70%;
+} */
+
+/* .booking button:hover {
+  background-color: #0056b3;
+} */
+
+.callnow {
+  color: #c4330b;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 20px; /* Added border radius */
+  margin-top: 10px;
+}
+
+.callnow:hover {
+  text-decoration: underline;
+}
+
