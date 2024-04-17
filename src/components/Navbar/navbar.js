@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { Link } from "react-scroll";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../Assets/Sevaride.png";
 const Navbar = () => {
   return (
@@ -10,16 +10,51 @@ const Navbar = () => {
       </a>
 
       <div className="navMenu">
-        <Link className="hover:cursor-grab ListItem ">Home</Link>
-        <Link className="hover:cursor-grab  ListItem">Services</Link>
-        <Link className="hover:cursor-grab  ListItem">About us</Link>
-        <Link className="hover:cursor-grab  ListItem">Contact us</Link>
+       
+        <NavLink
+            to="/"
+            className={({ isActive }) =>
+              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+            }
+            style={{ textDecoration: "none" }}
+          >
+            Home
+          </NavLink>
+       
+        <NavLink
+            to="/services"
+            className={({ isActive }) =>
+              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+            }
+            style={{ textDecoration: "none" }}
+          >
+            Services
+          </NavLink>
+        <NavLink
+            to="/about-us"
+            className={({ isActive }) =>
+              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+            }
+            style={{ textDecoration: "none" }}
+          >
+         About us
+          </NavLink>
+        <NavLink
+            to="/contact"
+            className={({ isActive }) =>
+              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+            }
+            style={{ textDecoration: "none" }}
+          >
+            Contact
+          </NavLink>
       </div>
 
       <div className="flex justify-end">
         {/* <button className="text-blue-500 hover:text-gray-300">Login/SignUp</button> */}
         <button className=" bg-red-400 mt-5 text-white border-none py-3 px-5 text-md cursor-pointer rounded-md  hover:scale-105 transition duration-300 ease-in-out">
-          Login/SignUp
+        
+          <Link to="/login"> Login/SignUp</Link>
         </button>
       </div>
     </nav>
