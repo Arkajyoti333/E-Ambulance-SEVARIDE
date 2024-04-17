@@ -16,7 +16,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
             }
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", cursor:"pointer" }}
           >
             Home
           </NavLink>
@@ -26,7 +26,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
             }
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", cursor:"pointer" }}
           >
             Services
           </NavLink>
@@ -35,7 +35,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
             }
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none" , cursor:"pointer"}}
           >
          About us
           </NavLink>
@@ -44,7 +44,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
             }
-            style={{ textDecoration: "none" }}
+            style={{ textDecoration: "none", cursor:"pointer" }}
           >
             Contact
           </NavLink>

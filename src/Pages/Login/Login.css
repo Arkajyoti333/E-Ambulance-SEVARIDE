@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 100px;
+    background:white;
+    padding-bottom: 30px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    margin-top: 30px;
+}
+.signup{
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underline{
+    width: 61px;
+    height: 6px;
+    background-color: aqua;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: rgb(224, 223, 223);
+    border-radius: 6px;
+} 
+.input img{
+    margin: 0px 30px;   
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 19px;
+}
+.fogot-password{
+    
+    margin-top: 27px;
+    color: rgb(6, 6, 6);
+    font-size: 18px;
+    align-self: center;
+}
+.fogot-password span{
+    color: rgb(18, 6, 192);
+    cursor: pointer;
+}
+.container-submit{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: aliceblue;
+    background: blueviolet;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background: #eaeaea;
+    color: #676767;
+}
