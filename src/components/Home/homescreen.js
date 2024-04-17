@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const HomeScreen = () => {
   return (
-    <div className="container">
+    <div className="container-home">
       {/* booking part */}
       <div className="booking">
         <h1>24/7 Emergency</h1>

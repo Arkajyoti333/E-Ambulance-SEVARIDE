@@ -1,4 +1,4 @@
-.container {
+.container-home {
   display: flex;
 }
 
@@ -32,21 +32,6 @@
 .booking p {
   font-size: 18px;
 }
-/* .booking button {
-  background-color: #007bff;
-  margin-top: 5%;
-  color: #fff;
-  border: none;
-  padding: 15px 40px;
-  font-size: 18px;
-  cursor: pointer;
-  border-radius: 15px;
-  width: 70%;
-} */
-
-/* .booking button:hover {
-  background-color: #0056b3;
-} */
 
 .callnow {
   color: #c4330b;
