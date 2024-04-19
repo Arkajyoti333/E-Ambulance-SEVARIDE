@@ -9,7 +9,7 @@ const Footer = () => {
           <div className=" relative flex flex-wrap flex-col justify-center text-left max-w-[25%] h-autotext-black font-semibold m-3 p-3 min-h-9">
             <a
               href="/"
-              className="text-3xl font-bold m-3 text-left hover:text-pink-700 hover:scale-110 "
+              className="text-3xl font-bold m-3 text-left hover:text-pink-700 hover:scale-110 hover:border-2 transition-all duration-300 ease-in-out hover:tracking-wider "
             >
               <p className="seva">Seva</p><p className="ride">Ride</p>
             </a>
