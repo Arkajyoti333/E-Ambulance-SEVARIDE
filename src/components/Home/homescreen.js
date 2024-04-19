@@ -1,5 +1,5 @@
 import React from "react";
-import bg from "../../Assets/ambulance.png";
+import bg from "../../Assets/file.png";
 import "./homescreen.css";
 import { Link } from "react-scroll";
 
@@ -13,7 +13,7 @@ const HomeScreen = () => {
         <h2>For Emergency Medical Service</h2>
         <p>
           Help / Rescues the Patient in case of the Emergency situation by doing
-          just a click. Medulance Ambulance comes right in front of the door for
+          just a click. SevaRide Ambulance comes right in front of the door for
           help.
         </p>
         <div>

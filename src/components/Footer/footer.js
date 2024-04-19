@@ -11,7 +11,7 @@ const Footer = () => {
               href="/"
               className="text-3xl font-bold m-3 text-left hover:text-pink-700 hover:scale-110 "
             >
-              <p>Sevaride</p>
+              <p className="seva">Seva</p><p className="ride">Ride</p>
             </a>
             <p className="text-sm ">
               The driver showed concern by waiting after the drop, to make sure

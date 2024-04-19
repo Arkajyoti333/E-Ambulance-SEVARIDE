@@ -9,10 +9,10 @@ const Services = () => {
           <div className="flex flex-col items-center bg-gradient-to-r from-pink-400 via-purple-400 to-blue-500 max-w-[80%]  p-4 rounded-md -mb-[70px]">
             <h2 className="text-center text-white text-3xl font-bold mb-4 p-3">
               Our Other Medical Services
-            </h2>
+            </h2> 
             <div className="relative flex flex-wrapjustify-center  p-4 m-4 ">
               <h3 className="text-center text-white font-semibold p-3">
-                We at Medulance provide our clients with a one-stop solution for all healthcare needs. We deliver an exclusive helpline number for ambulances and other healthcare services, ensuring 100% call answer assurance, 24*7, Pan-India (60+ Cities), under the same helpline number. One can also find services like Teleconsultation, E- Pharmacy, Diagnostics, Home health care, Elderly Care, mental wellness, etc.
+                We at SevaRide provide our clients with a one-stop solution for all healthcare needs. We deliver an exclusive helpline number for ambulances and other healthcare services, ensuring 100% call answer assurance, 24*7, Pan-India (60+ Cities), under the same helpline number. One can also find services like Teleconsultation, E- Pharmacy, Diagnostics, Home health care, Elderly Care, mental wellness, etc.
               </h3>
             </div>
           </div>
