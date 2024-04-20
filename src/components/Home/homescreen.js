@@ -36,7 +36,6 @@ const HomeScreen = () => {
               </button>
             </NavLink>
           </div>
-     
 
         </div>
         <div>
@@ -44,9 +43,9 @@ const HomeScreen = () => {
           <h3>book our assistance</h3>
           {/* <a href='tel:+9123813528' role='button' className='callnow'><i className='telno'></i>+91 9123813528</a> */}
           <button className=" bg-white border-4 border-rose-500 text-rose-500 text-xl py-3 px-10 font-semibold cursor-pointer rounded-lg mt-3 w-[70%] hover:border-blue-400 hover:text-blue-400 transition-all duration-300 ease-in-out hover:tracking-wider">
-            <Link to="tel:+9123813528">
+            <a href='tel:+9123813528'>
               <i class="fas fa-phone"></i>+91 9123813528
-            </Link>
+            </a>
           </button>
         </div>
       </div>
