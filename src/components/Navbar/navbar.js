@@ -9,12 +9,12 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="logo" />
       </a>
 
-      <div className="navMenu">
+      <div className="navMenu hover:cursor-grab  ">
        
         <NavLink
             to="/"
             className={({ isActive }) =>
-              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+              ` ${isActive ? "text-orange-500" : "text-gray-600"} py-2 px-1 mt-1 mr-8 text-black text-md font-semibold no-underline pr-8  `
             }
             style={{ textDecoration: "none", cursor:"pointer" }}
           >
@@ -24,7 +24,7 @@ const Navbar = () => {
         <NavLink
             to="/services"
             className={({ isActive }) =>
-              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+              ` ${isActive ? "text-orange-500" : "text-gray-600"} py-2 px-1 mt-1 mr-8 text-black  text-md font-semibold no-underline pr-8`
             }
             style={{ textDecoration: "none", cursor:"pointer" }}
           >
@@ -33,7 +33,7 @@ const Navbar = () => {
         <NavLink
             to="/about-us"
             className={({ isActive }) =>
-              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+              ` ${isActive ? "text-orange-500" : "text-gray-600"} py-2 px-1 mt-1 mr-8 text-black text-md font-semibold no-underline pr-8`
             }
             style={{ textDecoration: "none" , cursor:"pointer"}}
           >
@@ -42,7 +42,7 @@ const Navbar = () => {
         <NavLink
             to="/contact"
             className={({ isActive }) =>
-              ` ${isActive ? "text-orange-500" : "text-gray-600"} hover:cursor-grab  ListItem`
+              ` ${isActive ? "text-orange-500" : "text-gray-600"}  py-2 px-1 mt-1 mr-8 text-black text-md font-semibold no-underline pr-8`
             }
             style={{ textDecoration: "none", cursor:"pointer" }}
           >
