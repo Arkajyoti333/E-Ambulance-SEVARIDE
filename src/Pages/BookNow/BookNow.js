@@ -3,12 +3,13 @@ import { useState } from 'react';
 import './booknow.css';
 import {DirectionsRenderer, GoogleMap, useLoadScript} from '@react-google-maps/api';
 import { Autocomplete } from '@react-google-maps/api';
+import { faL } from '@fortawesome/free-solid-svg-icons';
 
 
 const libraries=['places'];
 const mapContainerStyle={
-    width:'1200px',
-    height:'650px',
+    width:'900px',
+    height:'500px',
 };
 const center= {
     lat:22.5726,
@@ -70,7 +71,7 @@ const destinationRef=useRef()
   return (
     <div className="home">
        <div className="searchbar">
-            <p>Get a Ride</p>
+            <p className="heading">Get a Ride</p>
            <Autocomplete>
                 <input type="text" placeholder="Pickup Location" ref={originRef}></input>
            </Autocomplete>
@@ -81,8 +82,8 @@ const destinationRef=useRef()
            <button type="button" onClick={calculateroute}>Search</button>
            <button type="button" onClick={()=>map.panTo(centera)}>Your Location</button>
            <button type="button" onClick={clearRoute}>Clear Route</button>
-           <h3>Distance:{distance}</h3>
-           <h3>Duration:{duration}</h3>
+           <p className="dis_dur">Distance:  {distance} </p>
+           <p className="dis_dur">Duration:  {duration}</p>
 
        </div>
        <div className="map">
@@ -92,9 +93,9 @@ const destinationRef=useRef()
                 zoom={10}
                 center={center}
                options={{
-                zoomControl:true,
-                fullscreenControl:true,
-                mapTypeControl:true,
+                zoomControl:false,
+                fullscreenControl:false,
+                mapTypeControl:false,
                }}
                 onLoad={(map)=>setmap(map)}
             >
