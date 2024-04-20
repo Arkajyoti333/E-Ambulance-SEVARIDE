@@ -25,14 +25,19 @@ const HomeScreen = () => {
         </p>
 
         <div>
-          <NavLink to="/BookNow">
-            <button
-              // onClick={handleClickBookNow}
-              className=" bg-red-500 mt-5 text-white border-none py-3 px-10 text-lg cursor-pointer rounded-lg w-[70%] hover:scale-105 transition duration-300 ease-in-out"
-            >
-              Book Now
-            </button>
-          </NavLink>
+
+          <div>
+            <NavLink to="/BookNow">
+              <button
+                // onClick={handleClickBookNow}
+                className=" bg-red-500 mt-5 text-white border-none py-3 px-10 text-lg cursor-pointer rounded-lg w-[70%] hover:scale-105 transition duration-300 ease-in-out"
+              >
+                Book Now
+              </button>
+            </NavLink>
+          </div>
+     
+
         </div>
         <div>
           <p>or</p>
