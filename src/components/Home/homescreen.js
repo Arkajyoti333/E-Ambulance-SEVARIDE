@@ -25,6 +25,7 @@ const HomeScreen = () => {
         </p>
 
         <div>
+<<<<<<< HEAD
           <div>
             <NavLink to="/BookNow">
               <button
@@ -35,6 +36,11 @@ const HomeScreen = () => {
               </button>
             </NavLink>
           </div>
+=======
+          <button className=" bg-red-500 mt-5 text-white border-none py-3 px-10 text-lg cursor-pointer rounded-lg w-[70%] hover:scale-105 transition duration-300 ease-in-out">
+            Book Now
+          </button>
+>>>>>>> 4c2e737634955b728e6dd7a9bcb6f4a9335be13e
         </div>
         <div>
           <p>or</p>
