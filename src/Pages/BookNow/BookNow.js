@@ -1,8 +1,5 @@
 import React from "react";
-
-
-
-
+import './booknow.css'
 
 const InputFilled=(props)=>{
    
