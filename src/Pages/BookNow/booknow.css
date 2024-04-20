@@ -18,7 +18,7 @@
     padding-top: -5px;
     text-align: center;
     font-size: x-large;
-    font-weight: bold;
+    font-weight: bolder;
 }
 .searchbar input[type="text"]{
     background-color: aqua;
