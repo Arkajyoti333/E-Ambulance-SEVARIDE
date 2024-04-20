@@ -23,23 +23,16 @@ const HomeScreen = () => {
           just a click. SevaRide Ambulance comes right in front of the door for
           help.
         </p>
-  
-        <div  className=" flex flex-wrap justify-center  mx-24 bg-red-500 mt-5 text-white border-none py-3 px-10 text-lg cursor-pointer rounded-lg w-[70%] hover:scale-105 transition duration-300 ease-in-out">
-          <NavLink
-            to="/BookNow"
-           
-          >
-            Book Now
+
+        <div>
+          <NavLink to="/BookNow">
+            <button
+              // onClick={handleClickBookNow}
+              className=" bg-red-500 mt-5 text-white border-none py-3 px-10 text-lg cursor-pointer rounded-lg w-[70%] hover:scale-105 transition duration-300 ease-in-out"
+            >
+              Book Now
+            </button>
           </NavLink>
-          {/* {isBookingPageOpen?(
-              BookNow
-            ):(
-          <button
-          onClick={handleClickBookNow}
-           className=" bg-red-500 mt-5 text-white border-none py-3 px-10 text-lg cursor-pointer rounded-lg w-[70%] hover:scale-105 transition duration-300 ease-in-out">
-            Book Now
-          </button>
-          )} */}
         </div>
         <div>
           <p>or</p>
